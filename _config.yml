@@ -1,6 +1,7 @@
-remote_theme: "mmistakes/minimal-mistakes@4.27.3"
-
 title: "加华移民 JiaHua Immigration"
-subtitle: "加拿大移民 · 签证办理 · 职业规划"
+name: "加华移民 JiaHua Immigration"
+description: "加拿大签证、移民项目评估、职业规划一站式顾问服务"
 locale: "zh-CN"
-author_profile: false
+
+url: "https://ykonguo.github.io"
+baseurl: "/jiahuaiimmigration"  # 如果你的仓库叫 minimal-mistakes 则写 /minimal-mistakes
