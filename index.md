@@ -1,7 +1,6 @@
 ---
 layout: single
-title: "加华移民 JiaHua Immigration"
+title: "欢迎来到加华移民 JiaHua Immigration"
 ---
 
-# 欢迎来到加华移民
-（这里放你的首页内容）
+（这里是首页内容，你可以放图、放介绍）
