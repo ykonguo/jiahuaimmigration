@@ -1,38 +1,38 @@
-# Theme
-remote_theme: "mmistakes/minimal-mistakes@4.27.3"
-
-# Site Settings
-locale: "zh-CN"
 title: "加华移民 JiaHua Immigration"
-title_separator: "-"
-subtitle: "加拿大签证 · 移民项目 · 职业规划"
-
 name: "加华移民 JiaHua Immigration"
-description: "提供加拿大签证办理、移民项目评估、职业规划、雇主担保、留学落地等一站式服务。"
+description: "提供加拿大全流程签证、移民项目、职业规划、一站式服务"
 
-# GitHub Pages Settings
 url: "https://ykonguo.github.io"
-baseurl: "/jiahuaiimmigration"
+baseurl: "/jiahuamimmigration"
 
-# Logo（可先留空）
-logo: ""
+theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
 
-# Navigation (顶部菜单)
-navigation:
-  - title: "首页"
-    url: /
-  - title: "签证"
-    url: /visa/
-  - title: "移民项目"
-    url: /immigration/
-  - title: "职业规划"
-    url: /career/
-  - title: "联系我们"
-    url: /contact/
-
-# Plugins（Minimal Mistakes 必须的）
 plugins:
   - jekyll-include-cache
 
-# Author Profile（可关掉）
-author_profile: false
+locale: "zh-CN"
+permalink: /:categories/:title/
+
+author:
+  name: "加华移民 JiaHua Immigration"
+
+markdown: kramdown
+highlighter: rouge
+
+# 导航栏
+navigation:
+  - title: 首页
+    url: /
+
+  - title: 签证
+    url: /visa/
+
+  - title: 移民项目
+    url: /immigration/
+
+  - title: 职业规划
+    url: /career/
+
+  - title: 联系我们
+    url: /contact/
