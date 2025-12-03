@@ -1,7 +1,38 @@
-title: "加华移民 JiaHua Immigration"
-name: "加华移民 JiaHua Immigration"
-description: "加拿大签证、移民项目评估、职业规划一站式顾问服务"
-locale: "zh-CN"
+# Theme
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 
+# Site Settings
+locale: "zh-CN"
+title: "加华移民 JiaHua Immigration"
+title_separator: "-"
+subtitle: "加拿大签证 · 移民项目 · 职业规划"
+
+name: "加华移民 JiaHua Immigration"
+description: "提供加拿大签证办理、移民项目评估、职业规划、雇主担保、留学落地等一站式服务。"
+
+# GitHub Pages Settings
 url: "https://ykonguo.github.io"
-baseurl: "/jiahuaiimmigration"  # 如果你的仓库叫 minimal-mistakes 则写 /minimal-mistakes
+baseurl: "/jiahuaiimmigration"
+
+# Logo（可先留空）
+logo: ""
+
+# Navigation (顶部菜单)
+navigation:
+  - title: "首页"
+    url: /
+  - title: "签证"
+    url: /visa/
+  - title: "移民项目"
+    url: /immigration/
+  - title: "职业规划"
+    url: /career/
+  - title: "联系我们"
+    url: /contact/
+
+# Plugins（Minimal Mistakes 必须的）
+plugins:
+  - jekyll-include-cache
+
+# Author Profile（可关掉）
+author_profile: false
